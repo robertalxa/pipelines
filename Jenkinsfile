@@ -1,8 +1,5 @@
 pipeline {
     agent any
-      tools {
-        nodejs 'nodeRecent' 
-      }
     environment { 
         CI = 'true'
     }
